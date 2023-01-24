@@ -1,14 +1,85 @@
 <!DOCTYPE html>
 <html lang="ja">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+    <!-- CSSファイルの読み込み -->
     <link rel="stylesheet" href="style.css" />
-    <title>My Portfolio</title>
-  </head>
-  <body>
-    <script src="main.js"></script>
-  </body>
+    <title>~CARAVAN~</title>
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <h1 class="heading">
+            <a href="index.html"> ~REN~ </a>
+        </h1>
+    </header>
+
+    <!-- navigation -->
+    <nav>
+        <ul class="nav-list">
+            <li class="nav-list-item">
+                <a href="index.html">Home</a>
+            </li>
+            <li class="nav-list-item">
+                <a href="https://www.ir.nihon-u.ac.jp/">About</a>
+            </li>
+            <li class="nav-list-item">
+                <a href="https://www.amazon.jp/hz/wishlist/ls/AUNW7N561SDO?ref_=wl_share">Want</a
+          >
+        </li>
+      </ul>
+    </nav>
+
+    <!-- main-visual用のdiv -->
+    <div class="main-visual">
+      <div class="main-visual-content">
+        <p class="main-visual-text">
+          If you're tired, rest well and do your best tomorrow!
+        </p>
+        <p class="main-visual-name">St. Augustine</p>
+      </div>
+    </div>
+
+    <!-- main用のdiv -->
+    <main>
+      <section class="blog">
+        <h2 class="blog-heading">Self Introduction</h2>
+     <div class="item">
+        <h2>名前　　　　　　　　　村田　蓮</h2>
+
+        <h2>出身地　　　　　　　　神奈川県</h2>
+
+        <h2>趣味・特技　　　　　　釣りとキャンプ！簡単な曲なら耳コピして<br>　　　　　　　　　　　ピアノで弾けます！</h2>
+
+        <h2>大学名　　　　　　　　日本大学</h2>
+
+       </div>
+       <br>
+
+
+
+       <div>
+        <h2 id="quiz-text"></h2>
+        <img id="quiz-image" src="img/italy.jpg">
+        <div>
+          <button id="choice-1"></button>
+          <button id="choice-2"></button>
+          <button id="choice-3"></button>
+        </div>
+        <div id="feedback"></div>
+      </div>
+  
+      <script src="./main.js"></script>
+
+        
+
+
+
+
+
+        
+</body>
+
 </html>
