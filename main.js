@@ -5,7 +5,7 @@ const choice3 = document.getElementById("choice-3");
 const feedback = document.getElementById("feedback");
 
 const quiz = {
-    text: "いきなりクイズ！この星の名前は何でしょう？",
+    text: "いきなりクイズ！ここはどこでしょう？",
     choices: [{
             text: "アメリカ",
             feedback: "残念！惜しい・・・",
